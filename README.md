@@ -1,12 +1,12 @@
 Sorting Algo Tracker
 Understanding the sorting algorithms is quit difficult so this project will help for visualization of sorting algorithms.
 
-## Description 📂
+## Description 
 ## Domain:- EdTech
 ## Technology:- Web Development
 ## Languages:- html, css and javascript
 ## Framework:- Bootstrap
-## 🔶 Features of the website:-
+## Features of the website:-
 User can visualize working of following sorts:-
 1. Bubble Sort
 2. Merge Sort
@@ -24,5 +24,7 @@ Also there is quiz section is also available on sorts.
 3. Generate the random array<br/>
 4. Select the any sort.<br/>
 5. Observe working carefully.<br/>
+
+Heroku app link : https://sorting-algo-tracker.herokuapp.com/
 
 
