@@ -2,7 +2,6 @@ Sorting Algo Tracker
 Understanding the sorting algorithms is quit difficult so this project will help for visualization of sorting algorithms.
 
 ## Description 
-## Domain:- EdTech
 ## Technology:- Web Development
 ## Languages:- html, css and javascript
 ## Framework:- Bootstrap
