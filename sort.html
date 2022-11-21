@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algo Tracker</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Sorting Algo Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="sort.html">Sort<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="quiz.html">Quiz</a>
+              </li>
+           
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+  
+    
+
+    
+
+        <div id="Info_Cont1">
+            <!-- <p>This is First Container</p> -->
+            <div class="array-inputs">
+                <p>Size of the array:</p>
+                <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+                <p>Speed of the algorithm:</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+                <p>complexities:
+                </p>
+                <!--<p>o(n^2)</p> -->
+                <p><figure class="table" id="complexities_table" style="display:none">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th><strong>Algorithm</strong></th>
+                        <th colspan="3"><strong>Time Complexity</strong></th>
+                        <th>Space Complexity</th>
+                      </tr>
+                      <tr>
+                          <th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th>
+                          <th><strong>Average</strong></th>
+                          <th><strong>Worst</strong></th>
+                          <th>&nbsp; &nbsp; &nbsp; Worst</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr id="b_sorts">
+                        <td><a>Bubble Sort</a></td>
+                        <td>Ω(n)</td>
+                        <td>θ(n^2)</td>
+                        <td>O(n^2)</td>
+                        <td>O(1)</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </figure>
+                <figure class="table" id="complexities_table1" style="display:none">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th><strong>Algorithm</strong></th>
+                        <th colspan="3"><strong>Time Complexity</strong></th>
+                        <th>Space Complexity</th>
+                      </tr>
+                      <tr>
+                          <th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th>
+                          <th><strong>Average</strong></th>
+                          <th><strong>Worst</strong></th>
+                          <th>&nbsp; &nbsp; &nbsp; Worst</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr id="b_sorts">
+                        <td><a>Selection Sort</a></td>
+                        <td>Ω(n^2)</td>
+                        <td>θ(n^2)</td>
+                        <td>O(n^2)</td>
+                        <td>O(1)</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </figure>
+                <figure class="table" id="complexities_table2" style="display:none">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th><strong>Algorithm</strong></th>
+                        <th colspan="3"><strong>Time Complexity</strong></th>
+                        <th>Space Complexity</th>
+                      </tr>
+                      <tr>
+                          <th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th>
+                          <th><strong>Average</strong></th>
+                          <th><strong>Worst</strong></th>
+                          <th>&nbsp; &nbsp; &nbsp; Worst</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a>Insertion Sort</a></td>
+                        <td>Ω(n)</td>
+                        <td>θ(n^2)</td>
+                        <td>O(n^2)</td>
+                        <td>O(1)</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </figure>
+                <figure class="table" id="complexities_table3" style="display:none">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th><strong>Algorithm</strong></th>
+                        <th colspan="3"><strong>Time Complexity</strong></th>
+                        <th>Space Complexity</th>
+                      </tr>
+                      <tr>
+                          <th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th>
+                          <th><strong>Average</strong></th>
+                          <th><strong>Worst</strong></th>
+                          <th>&nbsp; &nbsp; &nbsp; Worst</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a>Merge Sort</a></td>
+                        <td>Ω(n log(n))</td>
+                        <td>θ(n log(n))</td>
+                        <td>O(n log(n))</td>
+                        <td>O(n)</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </figure>
+                <figure class="table" id="complexities_table4" style="display:none">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th><strong>Algorithm</strong></th>
+                        <th colspan="3"><strong>Time Complexity</strong></th>
+                        <th>Space Complexity</th>
+                      </tr>
+                      <tr>
+                          <th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th>
+                          <th><strong>Average</strong></th>
+                          <th><strong>Worst</strong></th>
+                          <th>&nbsp; &nbsp; &nbsp; Worst</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a>Quick Sort</a></td>
+                        <td>Ω(n log(n))</td>
+                        <td>θ(n log(n))</td>
+                        <td>O(n^2)</td>
+                        <td>O(n)</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </figure>
+                <figure class="table" id="complexities_table5" style="display:none">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th><strong>Algorithm</strong></th>
+                        <th colspan="3"><strong>Time Complexity</strong></th>
+                        <th>Space Complexity</th>
+                      </tr>
+                      <tr>
+                          <th>&nbsp;</th><th>&nbsp; <strong>Best</strong></th>
+                          <th><strong>Average</strong></th>
+                          <th><strong>Worst</strong></th>
+                          <th>&nbsp; &nbsp; &nbsp; Worst</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a>Heap Sort</a></td>
+                        <td>Ω(n log(n))</td>
+                        <td>θ(n log(n))</td>
+                        <td>O(n log(n))</td>
+                        <td>O(1)</td>
+                      </tr>
+                  </tbody>
+                  </table>
+                </figure>
+              </p>
+            </div>
+            <button type="button" class="btn btn-outline-success" id="a_generate">Generate New Array</button>
+            <!-- <button id="a_generate">Generate New Array!</button> -->
+        </div>
+       <section>
+           <div class="container my-2">
+        <div class="jumbotron jumbotron-fluid" style="background-image: url('img/bgjumbo.jpg'); 
+        background-repeat: no-repeat;
+        background-size: 1600px 800px   ">
+            <div id="array_container">
+            
+            </div>
+          </div></div></section>
+
+        <div id="Info_Cont2">
+            
+                
+                <div class="algos">
+                    <button type="button" class="btn btn-outline-primary ">Bubble</button>
+                    <button type="button" class="btn btn-outline-secondary">Selection</button>
+                    <button type="button" class="btn btn-outline-success">Insertion</button>
+                    <button type="button" class="btn btn-outline-danger">Merge</button>
+                    <button type="button" class="btn btn-outline-warning">Quick</button>
+                    <button type="button" class="btn btn-outline-info">Heap</button>
+<!-- <button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button> -->
+                </div>
+            
+            <!-- <p>This is Second Container</p> -->
+        </div>
+
+    
+        <footer class="bg-dark text-center text-white">
+          
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            
+            <a class="text-white" href="">Sorting Algo Tracker</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      
+    
+
+    <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,67 @@
+<!Doctype HTML>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="./css/styl.css">
+	<title>Sorting Algo Tracker</title>
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Sorting Algo Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sort.html">Sort</a>
+            </li>
+            <li class="nav-item  active">
+                <a class="nav-link" href="quiz.html">Quiz<span class="sr-only">(current)</span></a>
+              </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+	
+	<!-- <div id="heading"><h1 id="text">AVENGERS QUIZ<h1></div> -->
+			<div id="quiz">
+				<div id="question"></div>
+				<label class="option"><input type="radio" name="option" value="1" /><span id="option1"></span></label>
+				<label class="option"><input type="radio" name="option" value="2" /><span id="option2"></span></label>
+				<label class="option"><input type="radio" name="option" value="3" /><span id="option3"></span></label>
+				<label class="option"><input type="radio" name="option" value="4" /><span id="option4"></span></label>
+				<button id="next" onclick="nextques();">NEXT QUESTION</button>
+			</div>
+			<div id="result" style="display:none">
+			</div>
+			<button id="quit" onclick="quit();">Quit</button>
+			
+			<footer class="bg-dark text-center text-white  fixed-bottom">
+				
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+				 
+				  <a class="text-white" href="">Sorting Algo Tracker </a>
+				</div>
+				<!-- Copyright -->
+			  </footer>
+	
+
+	  <script type="text/javascript" src="./scripts/questions.js"></script>
+	  <script type="text/javascript" src="./scripts/quiz.js"></script>
+	
+</body>
+</html>
