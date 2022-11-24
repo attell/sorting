@@ -24,6 +24,6 @@ Also there is quiz section is also available on sorts.
 4. Select the any sort.<br/>
 5. Observe working carefully.<br/>
 
-Heroku app link : https://sorting-algo-tracker.herokuapp.com/
+Heroku app link :https://sortalgotrack.herokuapp.com/
 
 
