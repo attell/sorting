@@ -33,7 +33,7 @@ function div_update(cont,height,color)
 {
     window.setTimeout(function(){
         cont.textContent = height;
-        cont.style=" margin:0% " + margin_size + "%; width:" + (100/array_size-(2*margin_size)) + "%; height:" + height + "%; background-color:" + color + "; color:#fff; font-size:9px;";
+        cont.style=" margin:0% " + margin_size + "%; width:" + (100/array_size-(2*margin_size)) + "%; height:" + height + "%; background-color:" + color + "; color:#000000; font-size:23px;";
     },c_delay+=delay_time);
 }
 
