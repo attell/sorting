@@ -35,7 +35,7 @@ function generate_array()
         cont.appendChild(divs[i]);
         divs[i].textContent = div_sizes[i];
         margin_size=0.1;
-        divs[i].style=" margin:0% " + margin_size + "%; background-color:blue; color:#000000; font-size:23px; width:" + (100/array_size-(2*margin_size)+10000) + "%; height:" + (div_sizes[i]+50) + "%;";
+        divs[i].style=" margin:0% " + margin_size + "%; background-color:blue; color:#000000; font-size:20px; width:" + (100/array_size-(2*margin_size)+10000) + "%; height:" + (div_sizes[i]+50) + "%;";
     }
 }
 
